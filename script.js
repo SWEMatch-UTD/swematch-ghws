@@ -1,6 +1,8 @@
 // ============================================================
 // GITHUB ANIMAL WORKSHOP
 // Each team writes ONE function that returns an image URL.
+// You will only need to uncomment the fetch code due to time constraints.
+
 // Find your team's section below and fill in your function.
 //   Team 1: dog     Team 2: cat     Team 3: monkey
 //   Team 4: fish    Team 5: bird
@@ -36,26 +38,31 @@ async function showAnimal(teamId) {
 }
 
 // ===== Team 1: dog =====
-async function getTeam1Image() {
+async function getTeam1Image() { 
+    // Comment or delete this line after you uncomment the fetch code below and implement your function.
     throw new Error('Team 1 has not built this yet.');
 }
 
 // ===== Team 2: cat =====
 async function getTeam2Image() {
+    // Comment or delete this line after you uncomment the fetch code below and implement your function.
     throw new Error('Team 2 has not built this yet.');
 }
 
 // ===== Team 3: monkey =====
 async function getTeam3Image() {
+    // Comment or delete this line after you uncomment the fetch code below and implement your function.
     throw new Error('Team 3 has not built this yet.');
 }
 
 // ===== Team 4: fish =====
 async function getTeam4Image() {
+    // Comment or delete this line after you uncomment the fetch code below and implement your function.
     throw new Error('Team 4 has not built this yet.');
 }
 
 // ===== Team 5: bird =====
 async function getTeam5Image() {
+    // Comment or delete this line after you uncomment the fetch code below and implement your function.
     throw new Error('Team 5 has not built this yet.');
 }
