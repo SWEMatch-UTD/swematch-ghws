@@ -2,13 +2,12 @@
 
 ## Setup
 - `git clone <url>`: copies a GitHub repo onto your computer.
-- `git init`: turns the current folder into a new git repo.
 
 ## Checking the state
 - `git status`: shows which files changed and what's staged.
 - `git log --oneline`: lists past commits, one line each.
-- `git diff`: shows exactly what you changed but haven't staged.
 - `git branch`: lists your local branches and marks the current one.
+- `git branch -a`: lists your local and remote branches.
 
 ## Saving your work
 - `git add .`: stages every changed file in the folder.
@@ -22,8 +21,7 @@
 
 ## Branching
 - `git switch <branch>`: moves you onto an existing branch.
-- `git switch -c <name>`: creates a new branch and moves onto it.
-- `git branch -d <branch>`: deletes a branch you've finished with.
+
 
 ## Combining and updating
 - `git merge <branch>`: brings another branch's commits into your current branch.

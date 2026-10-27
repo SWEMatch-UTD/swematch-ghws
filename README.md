@@ -24,3 +24,11 @@ SWEMatch Git/Github Workshop: Web app to get random animal photos
 
 No build step or dependencies. Open `index.html` in a browser (needs an internet connection), then click the button.
 
+
+## Branches 
+- team1/dog
+- team2/cat
+- team3/monkey
+- team4/fish
+- team5/bird
+- team6/fox
