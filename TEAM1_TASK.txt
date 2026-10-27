@@ -42,7 +42,7 @@ TASK 2: Change your button color (styles.css)
    should load when you click it!
 
 ------------------------------------------
-TASK 3: Add your name (index.html)
+TASK 3: Add your name (index.html) - for teammates who don't have Task 1 or 2
 ------------------------------------------
 1. Open index.html.
 2. Press Ctrl+F (Cmd+F on Mac) and search for "Team 1".
