@@ -1,0 +1,67 @@
+TEAM 6 (fox) - YOUR TASKS
+=========================
+
+SETUP (do this first!)
+1. Switch to your team's branch:
+       git checkout feat/team6-fox
+2. Your page has no styling yet. Pull the stylesheet from main:
+       git pull --no-rebase origin main
+3. Refresh index.html in your browser.
+   The page should now look styled, and styles.css is in your project!
+
+You have THREE tasks:
+  Task 1: uncomment your function in script.js
+  Task 2: change the color of your button
+  Task 3: add your name to the page
+
+------------------------------------------
+TASK 1: Uncomment your function (script.js)
+------------------------------------------
+1. Open script.js.
+2. Press Ctrl+F (Cmd+F on Mac) and search for "Team 6".
+3. Delete or comment out the line that says:
+       throw new Error('Team 6 has not built this yet.');
+4. Uncomment the fetch code below it (remove the // at the start
+   of each line).
+5. Save the file.
+
+------------------------------------------
+TASK 2: Change your button color (styles.css)
+------------------------------------------
+1. Open index.html.
+2. Press Ctrl+F (Cmd+F on Mac) and search for "Team 6".
+3. Find your button just below it: SHOW ME THE FOX
+   Write down its class name. Yours is: button3
+   (you'll find it as class="button3")
+4. Open styles.css.
+5. Press Ctrl+F and search for your button class: button3
+6. Change the background-color to any color you like.
+   Example:  background-color: hotpink;
+7. Save the file and refresh index.html in your browser.
+   Your button should have a new color, and your animal
+   should load when you click it!
+
+------------------------------------------
+TASK 3: Add your name (index.html) - for teammates who don't have Task 1 or 2
+------------------------------------------
+1. Open index.html.
+2. Press Ctrl+F (Cmd+F on Mac) and search for "Team 6".
+3. Look below your button. There are three lines that say:
+       Add your name here
+4. Pick ONE line and replace "Add your name here" with your name.
+   Each person on your team uses a different line!
+5. Save the file and refresh index.html in your browser.
+   Your name should show up under your button.
+
+------------------------------------------
+FINISH: save your work to GitHub
+------------------------------------------
+    git add .
+    git commit -m "Team 6: my changes"
+    git push -u origin feat/team6-fox
+
+If the push is rejected, a teammate pushed first. Run:
+    git pull --no-rebase origin feat/team6-fox
+then push again.
+
+Then follow GIT_COMMANDS.md to add, commit, and push your change.
