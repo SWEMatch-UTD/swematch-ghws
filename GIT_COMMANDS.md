@@ -21,6 +21,8 @@
 
 ## Branching
 - `git switch <branch>`: moves you onto an existing branch.
+- `git checkout <branch>`: also moves you onto an existing branch.
+- `git checkout -b <branch>`: Creates a new branch from your current branch and moves you to that newBranch.
 
 
 ## Combining and updating
