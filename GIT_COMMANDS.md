@@ -17,6 +17,8 @@
 - `git push`: uploads your commits to GitHub.
 - `git push -u origin <branch>`: pushes a new branch for the first time and links it to GitHub.
 - `git pull`: downloads new commits from GitHub and merges them into your branch.
+- `git pull --no-rebase origin main`: downloads the latest `main` and merges it into your current branch. Use this to get new files (like `styles.css`) from `main`.
+- `git pull --no-rebase origin <your-branch>`: if your push is rejected because a teammate pushed first, run this, then push again.
 - `git fetch`: downloads new commits from GitHub without changing your files.
 
 ## Branching
