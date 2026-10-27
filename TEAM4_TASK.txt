@@ -64,4 +64,28 @@ If the push is rejected, a teammate pushed first. Run:
     git pull --no-rebase origin feat/team4-fish
 then push again.
 
+------------------------------------------
+OPEN A PULL REQUEST (merge request into main)
+------------------------------------------
+1. Go to https://github.com/yoonieverse/swematch-ghws in your browser.
+2. Click the yellow "Compare & pull request" button for feat/team4-fish.
+   (Or: Pull requests tab -> New pull request.)
+3. Make sure it says:  base: main  <-  compare: feat/team4-fish
+4. Title it "Team 4: fish" and click "Create pull request".
+5. Wait for the facilitator to merge it. Don't click Merge yourself!
+
+If GitHub says "This branch has conflicts":
+    git pull --no-rebase origin main
+  Open styles.css. You will see lines like:
+       <<<<<<< HEAD
+       (your version)
+       =======
+       (main's version)
+       >>>>>>> main
+  Keep what you want, and delete the <<<<<<<, =======, and >>>>>>> lines.
+  Then:
+    git add styles.css
+    git commit -m "Fix conflict in styles.css"
+    git push
+
 Then follow GIT_COMMANDS.md to add, commit, and push your change.
