@@ -78,10 +78,10 @@ If GitHub says "This branch has conflicts":
     git pull --no-rebase origin main
   Open styles.css. You will see lines like:
        <<<<<<< HEAD
-       (your version)
+       (YOUR version)
        =======
-       (main's version)
-       >>>>>>> main
+       (main's version, from the other team)
+       >>>>>>> a long code like 64dba14...
   Keep what you want, and delete the <<<<<<<, =======, and >>>>>>> lines.
   Then:
     git add styles.css
