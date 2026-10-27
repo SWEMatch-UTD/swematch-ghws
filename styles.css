@@ -1,0 +1,32 @@
+
+/* ===== Team buttons: each team changes the color of their own button ===== */
+
+/* Team 1 button */
+button[data-team="team1"] {
+  background-color: #cccccc;
+}
+
+/* Team 2 button */
+button[data-team="team2"] {
+  background-color: #cccccc;
+}
+
+/* Team 3 button */
+button[data-team="team3"] {
+  background-color: #cccccc;
+}
+
+/* Team 4 button */
+button[data-team="team4"] {
+  background-color: #cccccc;
+}
+
+/* Team 5 button */
+button[data-team="team5"] {
+  background-color: #cccccc;
+}
+
+/* Team 6 button */
+button[data-team="team6"] {
+  background-color: #cccccc;
+}
