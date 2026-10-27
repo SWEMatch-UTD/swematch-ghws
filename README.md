@@ -26,9 +26,10 @@ No build step or dependencies. Open `index.html` in a browser (needs an internet
 
 
 ## Branches 
-- team1/dog
-- team2/cat
-- team3/monkey
-- team4/fish
-- team5/bird
-- team6/fox
+
+- feat/team1-dog
+- feat/team2-cat
+- feat/team3-monkey
+- feat/team4-fird
+- feat/team5-bird
+- feat/team6-fox
