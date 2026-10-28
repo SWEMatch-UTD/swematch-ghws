@@ -117,12 +117,12 @@ async function getTeam5Image() {
 // ===== Team 6: fox =====
 async function getTeam6Image() {
     // Delete or comment this line below:
-    // throw new Error('Team 6 has not built this yet.');
+    throw new Error('Team 6 has not built this yet.');
 
-    const response = await fetch('https://randomfox.ca/floof/');
-    if (!response.ok) {
-        throw new Error('Could not load a fox.');
-    }
-    const data = await response.json();
-    return data.image;
+    // const response = await fetch('https://randomfox.ca/floof/');
+    // if (!response.ok) {
+    //     throw new Error('Could not load a fox.');
+    // }
+    // const data = await response.json();
+    // return data.image;
 }
