@@ -101,7 +101,7 @@ async function getTeam4Image() {
 // ===== Team 5: bird =====
 async function getTeam5Image() {
     // Delete or comment this line below:
-    throw new Error('Team 5 has not built this yet.');
+    //throw new Error('Team 5 has not built this yet.');
 
     // Uncomment the code below: 
     // const pages = ['Atlantic_puffin', 'Flamingo', 'Blue_jay', 'Bald_eagle', 'Scarlet_macaw', 'Kingfisher'];
