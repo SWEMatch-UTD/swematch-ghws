@@ -10,6 +10,7 @@
 - `git branch -a`: lists your local and remote branches.
 
 ## Saving your work
+- `git diff`: shows exactly which lines you changed.
 - `git add .`: stages every changed file in the folder.
 - `git commit -m "message"`: saves the staged changes as a snapshot with a message.
 
@@ -26,6 +27,9 @@
 - `git checkout <branch>`: also moves you onto an existing branch.
 - `git checkout -b <branch>`: Creates a new branch from your current branch and moves you to that newBranch.
 
+
+## Pull requests (on GitHub)
+- After you push, open your repo on GitHub and click **Compare & pull request** to ask for your branch to be merged into `main`.
 
 ## Combining and updating
 - `git merge <branch>`: brings another branch's commits into your current branch.
